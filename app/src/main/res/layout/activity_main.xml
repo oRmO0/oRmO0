@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="20sp"
+        android:backgroundTint="#00FFFF"
+        android:text="Button"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135sp"
+        android:layout_marginBottom="20sp"
+        android:backgroundTint="#0000FF"
+        android:text="Button"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155sp"
+        android:layout_marginBottom="20sp"
+        android:text="Button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:margnbottom="20sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50sp"
+            android:layout_marginBottom="20sp"
+            android:layout_weight="1"
+            android:backgroundTint="#26E692"
+            android:text="Button"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#0000FF"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50sp"
+            android:layout_weight="1"
+            android:backgroundTint="#CAEB00"
+            android:text="Button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="3dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F0A432"
+            android:text="B       II"
+            android:textColor="#FF0000" />
+
+        <Button
+            android:id="@+id/button34"
+            android:layout_width="0.1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#F04900"
+            android:text="B       ii"
+            android:textColor="#EBE600" />
+
+        <Button
+            android:id="@+id/button36"
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="100dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF0000"
+            android:text="B       II"
+            android:textColor="#2783E6" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
